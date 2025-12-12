@@ -26,7 +26,7 @@ public class FlockSimulation {
     }
 
     public void addBoid() {
-        addBoid(BoidType.STANDARD);
+        addBoid(BoidType.randomRainbow());
     }
 
     public void addBoid(BoidType type) {
